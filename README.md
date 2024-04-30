@@ -18,11 +18,15 @@ Encryption is a java program that rotates characters.
 1. Choose an Option 
 2. Enter your Rotation
 3. Enter the text you want to en- / decrypt
-4. Repeat :)
+4. Repeat :) <br> <br>
+
+## Links
+[GitHub profil](https://github.com/krapfalex) <br>
+[FH Joanneum](https://www.fh-joanneum.at/)
 
 ## Exercises
 + [Exercise1](exercise1.md)
-+ Exercise2
++ [Exercise2](exercise2.md)
 + Exercise3
 + Exercise4
 + Exercise5
