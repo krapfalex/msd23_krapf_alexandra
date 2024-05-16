@@ -25,9 +25,9 @@ Encryption is a java program that rotates characters.
 [FH Joanneum](https://www.fh-joanneum.at/)
 
 ## Exercises
-+ [Exercise1](exercise1.md)
-+ [Exercise2](exercise2.md)
-+ Exercise3
++ [Exercise1](exercise1/exercise1.md)
++ [Exercise2](exercise2/exercise2.md)
++ [Exercise3](exercise3/exercise3.md)
 + Exercise4
 + Exercise5
 + Exercise6
