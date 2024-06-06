@@ -14,6 +14,6 @@
 <br>
 <br>
 
-![coverage](resources/ex4_1.png)
+![coverage](../resources/images/ex4_1.png)
 
-![coverage](resources/ex4_2.png)
+![coverage](../resources/images/ex4_2.png)
