@@ -18,13 +18,13 @@ public class Calculator {
     }
 
     public static int factorial(int number) {
-//        int faculty = 1;
-//        if (number > 0) {
-//            for (; number > 0; number--) {
-//                faculty *= number;
-//            }
-//            return faculty;
-//        }
+        int faculty = 1;
+        if (number > 0) {
+            for (; number > 0; number--) {
+                faculty *= number;
+            }
+            return faculty;
+        }
         return 0;
     }
 }
