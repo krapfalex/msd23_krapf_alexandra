@@ -1,4 +1,4 @@
-## Exercise 5 - Branching
+# Exercise 5 - Branching
 
 ### Warum werden Logging Bibliotheken verwendet?
 Logging Bibliotheken werden verwendet für...
@@ -52,3 +52,5 @@ Wird verwendet, um Informationen zu protokollieren, die für das Debuggen der An
  ![error logger](../resources/images/ex5_2.png)
 
  ![myapp.log](../resources/images/ex5_3.png)
+
+ ![status documentation](../resources/images/ex5_4.png)
