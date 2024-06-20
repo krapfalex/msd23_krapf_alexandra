@@ -15,3 +15,26 @@
 2024-06-20 11:15:01 DEBUG Calculator:30 - Called with parameters 5.0 5.0
 2024-06-20 11:15:01 DEBUG Calculator:30 - Called with parameters -9.0 -6.0
 2024-06-20 11:15:01 DEBUG Calculator:30 - Called with parameters 4.0 8.2
+2024-06-20 11:22:25 DEBUG Calculator:21 - Called with parameters 5.0 0.0
+2024-06-20 11:22:25 ERROR Calculator:23 - division by 0
+2024-06-20 11:22:25 DEBUG Calculator:21 - Called with parameters 16.0 8.0
+2024-06-20 11:22:25 DEBUG Calculator:21 - Called with parameters 1.0 0.0
+2024-06-20 11:22:25 ERROR Calculator:23 - division by 0
+2024-06-20 11:22:25 DEBUG Calculator:35 - Called with parameter 2
+2024-06-20 11:22:25 DEBUG Calculator:35 - Called with parameter 5
+2024-06-20 11:22:25 DEBUG Calculator:35 - Called with parameter -4
+2024-06-20 11:22:25 DEBUG Calculator:10 - Called with parameters 4.0 5.0
+2024-06-20 11:22:25 DEBUG Calculator:10 - Called with parameters -3.0 -5.0
+2024-06-20 11:22:25 DEBUG Calculator:10 - Called with parameters 0.8 0.8
+2024-06-20 11:22:25 DEBUG Calculator:16 - Called with parameters 10.0 8.0
+2024-06-20 11:22:25 DEBUG Calculator:16 - Called with parameters -4.0 -8.0
+2024-06-20 11:22:25 DEBUG Calculator:16 - Called with parameters 6.0 0.5
+2024-06-20 11:22:25 DEBUG Calculator:30 - Called with parameters 5.0 5.0
+2024-06-20 11:22:25 DEBUG Calculator:30 - Called with parameters -9.0 -6.0
+2024-06-20 11:22:25 DEBUG Calculator:30 - Called with parameters 4.0 8.2
+2024-06-20 11:22:47 DEBUG Calculator:10 - Called with parameters 3.0 7.0
+2024-06-20 11:22:47 DEBUG Calculator:16 - Called with parameters 4.0 2.0
+2024-06-20 11:22:47 DEBUG Calculator:21 - Called with parameters 10.0 2.0
+2024-06-20 11:22:47 DEBUG Calculator:30 - Called with parameters 2.0 6.0
+2024-06-20 11:22:47 ERROR main:19 - It is an error logger.
+2024-06-20 11:22:47 INFO  main:20 - It is a info logger.
