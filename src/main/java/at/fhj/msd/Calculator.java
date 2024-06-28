@@ -6,7 +6,7 @@ import org.apache.logging.log4j.Logger;
 public class Calculator {
 
     /**
-     *idk what that is
+     * The @code logger is used to log messages for this class.
      */
     private static Logger logger = LogManager.getLogger();
 
