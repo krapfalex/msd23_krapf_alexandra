@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="de"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>Calculator.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">Archetype - msd23_krapf_alexandra</a> &gt; <a href="index.source.html" class="el_package">at.fhj.msd</a> &gt; <span class="el_source">Calculator.java</span></div><h1>Calculator.java</h1><pre class="source lang-java linenums">package at.fhj.msd;
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
+<span class="nc" id="L6">public class Calculator {</span>
+
+    /**
+     * The @code logger is used to log messages for this class.
+     */
+<span class="fc" id="L11">    private static Logger logger = LogManager.getLogger();</span>
+
+
+    /**
+     * This method adds two numbers
+     * @param number1 first number for addition
+     * @param number2 second number for addition
+     * @return returns the result
+     */
+    public static double add(double number1, double number2) {
+<span class="fc" id="L21">        logger.debug(&quot;Called with parameters &quot; + number1 + &quot; &quot; + number2);</span>
+<span class="fc" id="L22">        return number1 + number2;</span>
+    }
+
+    /**
+     * This method subtracts numbers
+     * @param number1 Number that gets subtracted from
+     * @param number2 Number that gets subtracted
+     * @return returns result
+     */
+    public static double minus(double number1, double number2) {
+
+<span class="fc" id="L33">        logger.debug(&quot;Called with parameters &quot; + number1 + &quot; &quot; + number2);</span>
+<span class="fc" id="L34">        return number1 - number2;</span>
+    }
+
+    /**
+     *This method divides numbers
+     * @param number1 dividend
+     * @param number2 divisor
+     * @return returns result
+     * @throws ArithmeticException throws an arithmetic exception when number,32 is 0
+     */
+    public static double divide(double number1, double number2) {
+<span class="fc" id="L45">        logger.debug(&quot;Called with parameters &quot; + number1 + &quot; &quot; + number2);</span>
+<span class="fc bfc" id="L46" title="All 2 branches covered.">        if (number2 == 0) {</span>
+<span class="fc" id="L47">            logger.error(&quot;division by 0&quot;);</span>
+<span class="fc" id="L48">            throw new ArithmeticException();</span>
+        }
+<span class="fc" id="L50">        return number1/number2;</span>
+    }
+
+    /**
+     * This method multiplies two numbers
+     * @param number1 first number for multiplication
+     * @param number2 second number for multiplication
+     * @return returns result
+     */
+    public static double multiply(double number1, double number2) {
+<span class="fc" id="L60">        logger.debug(&quot;Called with parameters &quot; + number1 + &quot; &quot; + number2);</span>
+<span class="fc" id="L61">        return number1 * number2;</span>
+    }
+
+    /**
+     * This method calculates the faculty of a number
+     * @param number number of which the faculty will be calculated
+     * @return returns result
+     */
+    public static int factorial(int number) {
+<span class="fc" id="L70">        logger.debug(&quot;Called with parameter &quot; + number);</span>
+<span class="fc" id="L71">        int faculty = 1;</span>
+<span class="fc bfc" id="L72" title="All 2 branches covered.">        if (number &gt; 0) {</span>
+<span class="fc bfc" id="L73" title="All 2 branches covered.">            for (; number &gt; 0; number--) {</span>
+<span class="fc" id="L74">                faculty *= number;</span>
+            }
+<span class="fc" id="L76">            return faculty;</span>
+        }
+<span class="fc" id="L78">        return 0;</span>
+    }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.12.202403310830</span></div></body></html>

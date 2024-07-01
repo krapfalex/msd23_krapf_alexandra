@@ -20,15 +20,15 @@ public class CalculatorTest {
         Assertions.assertEquals(5.5, Calculator.minus(6.0, 0.5));
     }
 
+
     @Test
     void divide() {
-        assertThrows(ArithmeticException.class, () -> {
-            Calculator.divide(5, 0);
-        });
-
         Assertions.assertEquals(2.0, Calculator.divide(16.0, 8.0));
-        Assertions.assertEquals(null, Calculator.divide(1.0, 0));
         Assertions.assertEquals(10.0, Calculator.divide(-100.0, -10.0));
+
+        assertThrows(ArithmeticException.class, () -> {
+            Calculator.divide(1.0, 0);
+        });
     }
 
     @Test
