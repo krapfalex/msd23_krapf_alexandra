@@ -30,7 +30,7 @@ Encryption is a java program that rotates characters.
 + [Exercise3](exercise3/exercise3.md)
 + [Exercise4](exercise4/exercise4.md)
 + [Exercise5](exercise5/exercise5.md)
-+ Exercise6
++ [Exercise6](exercise6/exercise6.md)
 
 ## Templates
 + [xml.template](src/main/resources/log4j2.xml.template)
