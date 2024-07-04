@@ -1,1 +1,0 @@
-memberSearchIndex = [{"p":"at.fhj.msd","c":"CalculatorTest","l":"CalculatorTest()","u":"%3Cinit%3E()"}];updateSearchResults();

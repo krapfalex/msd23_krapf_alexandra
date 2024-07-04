@@ -1,1 +1,0 @@
-typeSearchIndex = [{"l":"Alle Klassen und Schnittstellen","u":"allclasses-index.html"},{"p":"at.fhj.msd","l":"CalculatorTest"}];updateSearchResults();
