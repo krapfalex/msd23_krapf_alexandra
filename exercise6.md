@@ -15,8 +15,8 @@ Steuert Layout, die Navigation und das Erscheinngsbild der generierten Projektwe
 
 ### Screenshots good_style, API und jacoco
 
-![goodstyle](../resources/images/ex6_1.png)
+![goodstyle](resources/images/ex6_1.png)
 
-![API](../resources/images/ex6_2.png)
+![API](resources/images/ex6_2.png)
 
-![jacoco](../resources/images/ex6_3.png)
+![jacoco](resources/images/ex6_3.png)

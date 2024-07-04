@@ -12,4 +12,4 @@ maven
 ![Compile](../resources/images/ex3_2.2.png)
 
 ### Erfolgreicher Durchlauf
-![Execution](../resources/images/ex3_3.png)
+![Execution](resources/images/ex3_3.png)

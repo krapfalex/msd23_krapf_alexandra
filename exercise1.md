@@ -10,5 +10,5 @@ This is another shorter paragraph.<br>
 
 ## Ursus
 
-![My horse Ursus](media/ex1_1.jpg.JPG)
+![My horse Ursus](resources/images/ex1_1.jpg.JPG)
 

@@ -47,10 +47,10 @@ Wird verwendet, um Informationen zu protokollieren, die für das Debuggen der An
  - Filter 
  - Properties
 
- ![status logging](../resources/images/ex5_1.png)
+ ![status logging](resources/images/ex5_1.png)
 
- ![error logger](../resources/images/ex5_2.png)
+ ![error logger](resources/images/ex5_2.png)
 
- ![myapp.log](../resources/images/ex5_3.png)
+ ![myapp.log](resources/images/ex5_3.png)
 
- ![status documentation](../resources/images/ex5_4.png)
+ ![status documentation](resources/images/ex5_4.png)
